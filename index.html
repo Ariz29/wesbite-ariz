@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-5.png" alt="Ariz Fadilah Tanjung" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ariz Fadilah Tanjung">Ariz Fadilah Tanjung</h1>
+
+          <p class="title">Fresh Graduate - Mathematics</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+             <p class="contact-title">Email</p>
+            <p class="contact-link">arizfadilaht02@gmail.com</p>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="https://wa.me/6285219782635" class="contact-link">+6285219782635</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">29 November 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Lahat, South Sumatera, Indonesia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Activity</button>
+          </li>
+
+         <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+     <section class="about-text" style="text-align: justify;">
+  <p>
+     I'm a Mathematics graduate with a concentration in Statistics and a GPA of 3.10, passionate about programming and data-driven technologies. 
+  Before pursuing my degree, I studied Software Engineering in vocational school, 
+  which built a strong foundation in logic, algorithmic thinking, statistical analysis, and software development.
+  </p>
+
+  <p>
+    Throughout my studies, I have explored and worked with various programming languages 
+    such as Python, SQL, Java, R, PHP, and JavaScript, 
+    along with other supporting tools for data processing, analysis, and web development.
+  </p>
+
+  <p>
+    I am highly interested in pursuing a career in Web Development, Data Analysis, Data Science, and Machine Learning. 
+    My goal is to integrate analytical thinking with technical expertise to create efficient, impactful, and intelligent solutions in the digital world.
+  </p>
+</section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ability</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/idea.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Scientist</h4>
+
+                <p class="service-item-text">
+                 Providing advanced data science and analytical solutions built on 
+                 accuracy, innovation, and professional standards.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Building modern and responsive web solutions with clean code and creative precision.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-science.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+
+                <p class="service-item-text">
+                Delivering accurate, data-driven insights through analytical excellence.
+                </p>
+
+              </div>
+
+            </li>
+
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+<header>
+  <h2 class="h2 article-title">Resume</h2>
+</header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lampung University - Mathematics</h4>
+
+              <span>Aug 2021 — Okt 2025</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vocational High School - Software Engineering</h4>
+
+              <span>Jul 2017 — May 2020</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Central Bureau of Statistics - Internship Participants Production and Sales Balance Central Bureau of Statistics</h4>
+
+              <span>Des 2023 - Jan 2024</span>
+
+              <p class="timeline-text">
+                Supporting the BPS Production and Expenditure Balance 
+                Function by inputting data, verifying the accuracy of
+                Production and Expenditure Balance data, and creating layout designs for the Official Statistical News.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PT Perkebunan Nusantara VII - Administrative Internship</h4>
+
+              <span>Jan 2019 — Mar 2019</span>
+
+              <p class="timeline-text">
+              Applying Software Engineering skills to create coding-based solutions in the form of digital archiving systems,
+              while being fully responsible for the security and ease of access to important company documents.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Scientist</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analyst</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+          
+  <div class="resume-buttons">
+    <button class="form-btn" type="button" onclick="viewPDF()">
+      <ion-icon name="eye-outline"></ion-icon>
+      <span>View PDF</span>
+    </button>
+
+    <button class="form-btn" type="button" onclick="downloadPDF()">
+      <ion-icon name="download-outline"></ion-icon>
+      <span>Download PDF</span>
+    </button>
+  </div>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="activity">
+
+        <header>
+          <h2 class="h2 article-title">Activity</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Organizational</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Non Organizational</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Organizational</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Non Organizational</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="non organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/BEM Unila - Aksi Palestina.jpg" alt="oegiatan_Organizational" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aksi Palestina</h3>
+
+                <p class="project-category">Keluarga Madani 21</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Desbin.jpg" alt="oegiatan_Organizational" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Desa Binaan Teluk Kiluan</h3>
+
+                <p class="project-category">BEM U KBM Unila 2025</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="non organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/lomba satria data.jpg" alt="lomba" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lomba Satria Data</h3>
+
+                <p class="project-category">Jurusan Matematika</p>
+
+              </a>
+            </li>
+
+              <li class="project-item  active" data-filter-item data-category="non organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/smk negeri 1 lahat.jpg" alt="smk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kunjungan Perusahaan</h3>
+
+                <p class="project-category">SMK Negeri 1 Lahat</p>
+
+              </a>
+            </li>
+
+             <li class="project-item  active" data-filter-item data-category="organiasasi">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rois fmipa unila.jpg" alt="smk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kegiatan Rois FMIPA Unila</h3>
+
+                <p class="project-category">Rois FMIPA Unila 2023</p>
+
+              </a>
+            </li>
+
+            
+
+              <li class="project-item  active" data-filter-item data-category="organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Kunjungan ke panti - rois fmipa.jpg" alt="smk" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kunjungan Ke Panti Asuhan</h3>
+
+                <p class="project-category">Rois FMIPA Unila X HIMATIKA Unila 2023</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bem fmipa-1.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pelantikan BEM FMIPA Unila 2024</h3>
+
+                <p class="project-category">BEM FMIPA Unila 2024</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="organizational">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pimpinan - bem u - .jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pengenalan Kehidupan Kampus Mahasiswa Baru</h3>
+
+                <p class="project-category">BEM U KBM Unila 2025</p>
+
+              </a>
+            </li>
+            
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+======================================================
+# Protofolio (sementara dinonaktifkan)
+======================================================
+
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+            <p class="blog-text">
+              Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+            <p class="blog-text">
+              Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Design digest #80</h3>
+            <p class="blog-text">
+              Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+            <p class="blog-text">
+              Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+            <p class="blog-text">
+              Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+            <div class="blog-meta">
+              <p class="blog-category">Design</p>
+              <span class="dot"></span>
+              <time datetime="2022-02-23">Fab 23, 2022</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Design digest #79</h3>
+            <p class="blog-text">
+              Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+            </p>
+          </div>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+-->
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" enable data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+     <div class="separator"></div>
+
+<ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://www.facebook.com/ariz.fadilah.tanjung29" target="_blank" rel="noopener noreferrer" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <span></span>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/ariz-fadilah-tanjung/" target="_blank" rel="noopener noreferrer" class="social-link">
+      <ion-icon name="logo-linkedin"></ion-icon>
+      <span></span>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://www.instagram.com/arizfadilaht_/" target="_blank" rel="noopener noreferrer" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+      <span></span>
+    </a>
+  </li>
+
+</ul>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
